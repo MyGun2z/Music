@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr_login"
+    android:orientation="vertical"
+    tools:context=".DangKy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:text="Welcome!         Đăng Ký"
+            android:textAlignment="center"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/DK_email"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="30dp"
+            android:background="@android:drawable/button_onoff_indicator_off"
+            android:ems="10"
+            android:hint="@string/DK_email"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="#C1FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/DK_password"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:drawable/button_onoff_indicator_off"
+            android:ems="10"
+            android:hint="@string/DK_password"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="#C1FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/DK_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:drawable/button_onoff_indicator_off"
+            android:ems="10"
+            android:hint="@string/DK_Confirm_Password"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="#C1FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/dk_bt_dangky"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/DK_bt_Dangky"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Đã có tài khoản ? Đăng Nhập"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+    </LinearLayout>
+</LinearLayout>

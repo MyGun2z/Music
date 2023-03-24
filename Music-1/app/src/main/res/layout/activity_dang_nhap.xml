@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr_login"
+    android:orientation="vertical"
+    tools:context=".DangNhap">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:text="Welcome  !              Đăng Nhập"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/DN_email"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="30dp"
+            android:background="@android:drawable/button_onoff_indicator_off"
+            android:ems="10"
+            android:hint="@string/DK_email"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="#C1FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/DN_password"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:drawable/button_onoff_indicator_off"
+            android:ems="10"
+            android:hint="@string/DK_password"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="#C1FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/DN_btDangnhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/DN_btDangNhap"
+            android:textSize="25dp" />
+
+
+        <Button
+            android:id="@+id/DN_btDangky"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/DN_btDangky"
+            android:textSize="25dp" />
+    </LinearLayout>
+</LinearLayout>

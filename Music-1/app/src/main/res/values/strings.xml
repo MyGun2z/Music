@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="DK_email">Email</string>
+    <string name="DK_password">Mật Khẩu</string>
+    <string name="DK_Confirm_Password">Nhập Lại Mật Khẩu</string>
+    <string name="DK_bt_Dangky">Đăng Ký</string>
+    <string name="DN_btDangNhap">Đăng Nhập</string>
+    <string name="DN_btDangky">Dăng Ký</string>
+</resources>
